@@ -1,9 +1,4 @@
-# OpenLDAP SSH Docker Example
-
-This example sets up an OpenLDAP and SSH containers to test authenticating 
-SSH connections using LDAP and PAM.
-
-## Setup
+# OpenLDAP Vault Example
 
 ```bash
 make
