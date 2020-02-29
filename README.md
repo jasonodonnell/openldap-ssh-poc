@@ -11,10 +11,8 @@ make
 
 ## Test
 
-Using the password `password`:
-
-```bash
-ssh -l hashicorp 0.0.0.0 -p 2022
+```
+make test
 ```
 
 ## Cleanup
