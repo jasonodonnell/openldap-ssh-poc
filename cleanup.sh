@@ -1,5 +1,5 @@
 #!/bin/bash
 
 docker rm ldap --force
-docker rm sshd --force
+docker rm vault --force
 docker network rm ldap

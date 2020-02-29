@@ -1,11 +1,11 @@
 .PHONY: all 
-all: image run
-
-image:
-	docker build . -f Dockerfile.centos7 -t sshtest:1.0.0
+all: run
 
 run:
 	$(PWD)/run.sh
+
+test:
+	$(PWD)/test.sh
 
 clean:
 	$(PWD)/cleanup.sh
