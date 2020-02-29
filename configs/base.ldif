@@ -1,9 +1,0 @@
-dn: ou=users,dc=hashicorp,dc=com
-objectClass: organizationalUnit
-objectClass: top
-ou: users
-
-dn: ou=groups,dc=hashicorp,dc=com
-objectClass: organizationalUnit
-objectClass: top
-ou: groups
